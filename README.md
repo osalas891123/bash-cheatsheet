@@ -20,9 +20,7 @@ find /path/to/folder -type f -name "sidekiq*"
 ip link show
 ```
 
-`# mirror an entire website \
-# Tutorial link: http://www.linuxjournal.com/content/downloading-entire-web-site-wget
-`
+`# mirror an entire website: http://www.linuxjournal.com/content/downloading-entire-web-site-wget`
 
 ```bash
 wget \
