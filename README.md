@@ -20,6 +20,21 @@ find /path/to/folder -type f -name "sidekiq*"
 ip link show
 ```
 
+`# mirror an entire website`
+`# Tutorial link: http://www.linuxjournal.com/content/downloading-entire-web-site-wget`
+
+```bash
+wget \
+     --recursive \
+     --no-clobber \
+     --page-requisites \
+     --html-extension \
+     --convert-links \
+     --no-parent \
+         www.website.org
+```
+
+
 ## Uncategorized
 
 `# making a bootable usb drive by simply mounting an image`
