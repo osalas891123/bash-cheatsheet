@@ -10,6 +10,12 @@
 find /path/to/folder -type f -name "sidekiq*"
 ```
 
+`# unzip all *.zip files in the current folder`
+
+```bash
+unzip \*.zip
+```
+
 ## Network
 
 `# list available network interfaces`
