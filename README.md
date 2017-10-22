@@ -1,6 +1,4 @@
 # bash-cheatsheet
-A handful of useful bash commands
-
 > Bash commands that have proven to be very useful for me
 
 ## Working with the file system
