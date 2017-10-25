@@ -38,7 +38,13 @@ wget \
 ```
 
 
-## Uncategorized
+## Miscellaneous
+
+`# extracting the audio from video files`
+
+```bash
+ffmpeg -i /input/path/to/video/file.mp4 /output/path/to/audio/file.mp3
+```
 
 `# making a bootable usb drive by simply mounting an image`
 
