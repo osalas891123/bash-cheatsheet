@@ -17,9 +17,13 @@ unzip \*.zip
 ```
 
 `# compress file or folder as *.tar.gz`
+
 `# -c: create an archive`
+
 `# -z: compress the archive with gzip`
+
 `# -v: verbose mode on`
+
 `# -f: allows you to specify the filename of the archive`
 ```bash
 tar -czvf file-name.tar.gz /path/to/file/or/folder/to/compress
