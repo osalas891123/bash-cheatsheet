@@ -29,6 +29,12 @@ unzip \*.zip
 tar -czvf file-name.tar.gz /path/to/file/or/folder/to/compress
 ```
 
+`# list folder content as treeview`
+```bash
+tree -N -h -l -A
+```
+
+
 ## Network
 
 `# list available network interfaces`
