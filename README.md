@@ -81,3 +81,12 @@ sudo dd if=/path/to/linux/distro/iso/image/file.iso of=/dev/sdb1
 ```bash
 echo "username:password" | base64
 ```
+
+
+## Miscellaneous
+
+`# restart Cinnamon Desktop Environment from tty`
+
+```bash
+pkill -HUP -f "cinnamon --replace"
+```
