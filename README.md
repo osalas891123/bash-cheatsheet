@@ -83,7 +83,7 @@ echo "username:password" | base64
 ```
 
 
-## Miscellaneous
+## Desktop Environments
 
 `# restart Cinnamon Desktop Environment from tty`
 
