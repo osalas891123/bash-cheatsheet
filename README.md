@@ -56,6 +56,12 @@ wget \
          www.website.org
 ```
 
+`# resume file download with wget:
+https://www.cyberciti.biz/tips/wget-resume-broken-download.html`
+
+```bash
+wget --continue <url>
+```
 
 ## Miscellaneous
 
