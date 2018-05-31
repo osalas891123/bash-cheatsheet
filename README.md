@@ -34,6 +34,11 @@ tar -czvf file-name.tar.gz /path/to/file/or/folder/to/compress
 tree -N -h -l -A
 ```
 
+`# list folder content as treeview and exclude some patters`
+```bash
+tree -N -A -I 'logs|*out'
+```
+
 
 ## Network
 
