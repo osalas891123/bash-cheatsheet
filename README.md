@@ -93,6 +93,11 @@ sudo dd if=/path/to/linux/distro/iso/image/file.iso of=/dev/sdb1
 echo "username:password" | base64
 ```
 
+`# decode base64 strings (e.g. your proxy server credentials)`
+
+```bash
+echo QWxhZGRpbjpvcGVuIHNlc2FtZQ== | base64 --decode
+```
 
 ## Desktop Environments
 
