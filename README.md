@@ -101,7 +101,7 @@ echo QWxhZGRpbjpvcGVuIHNlc2FtZQ== | base64 --decode
 
 ## Desktop Environments
 
-`# restart Cinnamon Desktop Environment from tty`
+`# restart Cinnamon Desktop Environment from tty (https://github.com/linuxmint/Cinnamon/issues/4763)`
 
 ```bash
 pkill -HUP -f "cinnamon --replace"
