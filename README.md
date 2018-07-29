@@ -76,6 +76,12 @@ wget --continue <url>
 ffmpeg -i /input/path/to/video/file.mp4 /output/path/to/audio/file.mp3
 ```
 
+`# reduce size and quality of video files (https://unix.stackexchange.com/questions/28803/how-can-i-reduce-a-videos-size-with-ffmpeg)`
+
+```bash
+ffmpeg -i /path/to/input/file.mp4 -vcodec libx264 -crf 20 /path/to/output/file.mp4
+```
+
 `# making a bootable usb drive by simply mounting an image`
 
 ```bash
