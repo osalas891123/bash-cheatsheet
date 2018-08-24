@@ -82,6 +82,13 @@ ffmpeg -i /input/path/to/video/file.mp4 /output/path/to/audio/file.mp3
 ffmpeg -i /path/to/input/file.mp4 -vcodec libx264 -crf 20 /path/to/output/file.mp4
 ```
 
+`# convert .pdf document to .doc or .docx`
+
+```bash
+soffice --infilter="writer_pdf_import" --convert-to doc /path/to/file.pdf
+soffice --infilter="writer_pdf_import" --convert-to docx /path/to/file.pdf
+```
+
 `# making a bootable usb drive by simply mounting an image`
 
 ```bash
