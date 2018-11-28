@@ -29,6 +29,11 @@ unzip \*.zip
 tar -czvf file-name.tar.gz /path/to/file/or/folder/to/compress
 ```
 
+`# extract *.tar.gz file to specified folder`
+```bash
+tar -xzf foo.tar.gz -C output/
+```
+
 `# list folder content as treeview`
 ```bash
 tree -N -h -l -A
