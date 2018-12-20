@@ -73,6 +73,14 @@ https://www.cyberciti.biz/tips/wget-resume-broken-download.html`
 wget --continue <url>
 ```
 
+## Databases
+
+`# connect to psql console`
+
+```bash
+psql -U username -h localhost db_name
+```
+
 ## Miscellaneous
 
 `# extracting the audio from video files`
