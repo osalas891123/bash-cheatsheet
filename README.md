@@ -73,9 +73,14 @@ https://www.cyberciti.biz/tips/wget-resume-broken-download.html`
 wget --continue <url>
 ```
 
+`# list process PID listening on port (e.g. list process on port 8000)`
+```bash
+fuser 8000/tcp
+```
+
 `# kill process on specific port (e.g. kill process on port 8000)`
 ```bash
-sudo fuser -k 8000/tcp
+fuser -k 8000/tcp
 ```
 
 ## Databases
