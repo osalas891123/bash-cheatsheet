@@ -83,6 +83,11 @@ fuser 8000/tcp
 fuser -k 8000/tcp
 ```
 
+`# list open ports`
+```bash
+netstat -tuplen
+```
+
 ## Databases
 
 `# connect to psql console`
