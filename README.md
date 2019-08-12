@@ -44,6 +44,11 @@ tree -N -h -l -A
 tree -N -A -I 'logs|*out'
 ```
 
+`# get folder sizes in current folder`
+```bash
+du -sh *
+```
+
 
 ## Network
 
@@ -86,6 +91,11 @@ fuser -k 8000/tcp
 `# list open ports`
 ```bash
 netstat -tuplen
+```
+
+`# copy/download folder in AWS instance over rsync to maintain symlinks`
+```bash
+rsync -avz -e "ssh -i /absolute/path/to/file-key.pem" username@host.com:/folder/to/download /path/to/copy/folder/to
 ```
 
 ## Databases
