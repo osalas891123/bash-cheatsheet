@@ -49,6 +49,16 @@ tree -N -A -I 'logs|*out'
 du -sh *
 ```
 
+`# get disks status`
+```bash
+df -H
+```
+
+`# filter df -H filesystem and find out the percentage of space`
+```bash
+df -H | grep -vE '^Filesystem|tmpfs|cdrom' | awk '{ print $5 " " $1 }'
+```
+
 
 ## Network
 
