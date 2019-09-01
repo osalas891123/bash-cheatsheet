@@ -121,6 +121,12 @@ psql -U username -h localhost db_name
 `# extracting the audio from video files`
 
 ```bash
+/usr/bin/google-chrome-stable %U --disable-web-security --user-data-dir=/tmp/chrome
+```
+
+`# extracting the audio from video files`
+
+```bash
 ffmpeg -i /input/path/to/video/file.mp4 /output/path/to/audio/file.mp3
 ```
 
